@@ -118,3 +118,42 @@ header .logo{
     background-color: rgba(244, 132, 203, 0.8);
 }
  
+
+.main_section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    position: relative;
+    padding: 12rem 0 15rem 0;
+}
+
+.block_element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4rem;
+    padding: 6rem 4rem 6rem 11rem;
+    box-shadow: rgba(60, 56, 56, 0.2) 0px 4px 10px 0px;
+}
+
+.text_block{
+    width: 60%;
+}
+
+.title_block{
+    margin-bottom: 2rem;
+}
+
+.description{
+    line-height: 2rem;
+    color: var(--grayish_blue);
+    width: 80%;
+    font-style: normal;
+}
+
+.image_block{
+    width: 50%;
+}
+
+
+
