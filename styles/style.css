@@ -43,6 +43,15 @@ header{
     padding-top: 3rem;
 }
 
+footer{
+    background-color: var(--very_dark_cyan);
+    padding: 16rem 0 4rem 0;
+}
+footer p{
+    color: white;
+    font-size: 1.5rem;
+}
+
 /* Classes and section styles */
 .hero_section{
     background-image: url(images/bg-hero-desktop.svg);
@@ -155,5 +164,30 @@ header .logo{
     width: 50%;
 }
 
+.floating_block{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 60%;
+    z-index: 100%;
+    border-radius: 2rem;
+    box-shadow: rgba(47, 46, 46, 0.2) 0px 4px 12px 0px;
+    transform: translateY(60%);
+    padding: 5rem 7rem 5rem 7rem;
+}
+
+.floating_block_title{
+    margin-bottom: 4rem;
+}
+
+.footer_logo{
+    fill: white;
+    margin-bottom: 2rem;
+}
 
 
