@@ -189,6 +189,15 @@ header .logo{
     margin-bottom: 2rem;
 }
 
-.footer_info
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info .footer_row{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
 
