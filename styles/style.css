@@ -1,0 +1,120 @@
+/* General variables */
+:root{
+    --poppins:'Poppins', sans-serif;
+    --open_sans: 'Open Sans', sans-serif;
+    --pink:hsl(322, 100%, 66%);
+    --very_pale_cyan: hsl(193, 100%, 96%);
+    --very_dark_cyan: hsl(192, 100%, 9%);
+    --grayish_blue: hsl(208, 11%, 55%);
+    --font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* general html tags */
+body{
+    font-family: var(--open_sans);
+    font-size: 1.8rem;
+}
+
+html{
+    font-size: 63%;
+}
+h1, h2{
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: var(--very_dark_cyan);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+/* Classes and section styles */
+.hero_section{
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: var(--very_pale_cyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header .logo{
+    width: 23rem;
+    
+}
+
+.try_button{
+    background-color: white;
+    color: var(--very_dark_cyan);
+    padding: 2rem 5rem;
+    border-radius: 3rem;
+    transition: all 0.3s;
+    box-shadow: rgba(73, 73, 82, 0.2) 0px 8px 28px 0px;
+}
+
+.try_button:hover,
+.try_button:active {
+    color: rgba(7, 94, 115, 0.6);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.text_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+.content_image{
+    width: 100%;
+}
+.title_content{
+    line-height: 1.5;
+    font-size: 4rem;
+}
+.paragraph_content{
+    color: var(--very_dark_cyan);
+}
+.get_start_button{
+    color: azure;
+    border-radius: 3rem;
+    padding: 2rem 1.5rem;
+    background-color: var(--pink);
+    text-align: center;
+    width: 50%;
+    transition: all 0.3s;
+    box-shadow: rgba(73, 73, 82, 0.2) 0px 8px 28px 0px;
+    font-size: 1.6rem;
+}
+
+.get_start_button:hover,
+.get_start_button:active {
+    color: rgba(7, 94, 115, 0.6);
+    background-color: rgba(244, 132, 203, 0.8);
+}
+ 
